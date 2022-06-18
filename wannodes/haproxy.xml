@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2022-06-18</Date>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>haproxy</Name>
+  <Project>https://hub.docker.com/_/haproxy</Project>
+  <Changes>
+  </Changes>
+  <Overview>
+   HAProxy - The Reliable, High Performance TCP/HTTP Load Balancer
+  </Overview>
+  <Description>
+   HAProxy - The Reliable, High Performance TCP/HTTP Load Balancer
+  </Description>
+  <Registry>https://hub.docker.com/_/haproxy</Registry>
+  <GitHub></GitHub>
+  <Repository>haproxy</Repository>
+  <Support>https://hub.docker.com/_/haproxy</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/haproxy</HostDir>
+      <ContainerDir>/usr/local/etc/haproxy</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner>https://raw.githubusercontent.com/docker-library/docs/4da3e2446a4c257c3a32faac6256bee81f770316/haproxy/logo.png</Banner>
+  <Icon>https://raw.githubusercontent.com/wyh136/docker-templates/master/images/640px-Haproxy-logo.png</Icon>
+</Containers>
