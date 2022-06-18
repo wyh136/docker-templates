@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2022-06-18</Date>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>OpenVpnServer</Name>
+  <Project>https://#</Project>
+  <Changes>
+  </Changes>
+  <Overview>
+    OpenVPN还需要介绍吗
+  </Overview>
+  <Description>
+     OpenVPN服务器
+  </Description>
+  <Registry>https://hub.docker.com/r/kylemanna/openvpn</Registry>
+  <GitHub>https://github.com/kylemanna/docker-openvpn</GitHub>
+  <Repository>kylemanna/openvpn</Repository>
+  <Support>https://github.com/kylemanna/docker-openvpn/wiki</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/openvpn</HostDir>
+      <ContainerDir>/etc/openvpn</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner>https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.leixue.com%2Fuploads%2F2020%2F09%2FOpenVPN.png%21760&refer=http%3A%2F%2Fwww.leixue.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1658109577&t=1b1c9df57edfed493d3038f34ba9422b</Banner>
+  <Icon>https://img0.baidu.com/it/u=3908667157,507472627&fm=253&fmt=auto&app=138&f=PNG?w=256&h=256</Icon>
+</Containers>
