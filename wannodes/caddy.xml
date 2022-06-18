@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2022-06-18</Date>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>caddy</Name>
+  <Project>https://hub.docker.com/_/caddy</Project>
+  <Changes>
+  </Changes>
+  <Overview>
+    Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.
+  </Overview>
+  <Description>
+    Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.
+  </Description>
+  <Registry>https://hub.docker.com/_/caddy</Registry>
+  <GitHub>https://github.com/caddyserver/</GitHub>
+  <Repository>caddyh</Repository>
+  <Support>https://hub.docker.com/_/caddy</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/var/www/caddy</HostDir>
+      <ContainerDir>/var/www/caddy</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/caddy/Caddyfile</HostDir>
+      <ContainerDir>/etc/Caddyfile</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner>https://raw.githubusercontent.com/docker-library/docs/175a99d9d009afb887a921e35bfa892a01d7be77/caddy/logo.png</Banner>
+  <Icon>https://raw.githubusercontent.com/wyh136/docker-templates/master/images/caddy-lock.png</Icon>
+</Containers>
