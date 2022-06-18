@@ -15,7 +15,7 @@
   </Description>
   <Registry>https://hub.docker.com/_/caddy</Registry>
   <GitHub>https://github.com/caddyserver/</GitHub>
-  <Repository>caddyh</Repository>
+  <Repository>caddy</Repository>
   <Support>https://hub.docker.com/_/caddy</Support>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
