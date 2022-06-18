@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2022-06-18</Date>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>aliddns</Name>
+  <Project>https://hub.docker.com/r/sanjusss/aliyun-ddns</Project>
+  <Changes>
+  </Changes>
+  <Overview>
+    自动设置阿里云解析。支持x86、ARM、多域名和ipv6 
+  </Overview>
+  <Description>
+    通过在线API获取公网IPv4/v6地址，更新到域名A/AAAA记录。
+    通过本地网卡获取公网或内网IPv4/v6地址，更新到域名A/AAAA记录。
+    支持更新多个域名的记录。
+    支持更新指定线路的记录。
+    支持Docker容器，支持x64、ARMv7和ARMv8。
+    IP发生变化时，使用WebHook通知。
+  </Description>
+  <Registry>https://hub.docker.com/r/sanjusss/aliyun-ddns</Registry>
+  <GitHub>https://www.github.com/sanjusss/aliyun-ddns/</GitHub>
+  <Repository>sanjusss/aliyun-ddns</Repository>
+  <Support>https://hub.docker.com/r/sanjusss/aliyun-ddns</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+  </Data>
+  <WebUI></WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/wyh136/docker-templates/master/images/ddns.png</Icon>
+</Containers>
