@@ -33,5 +33,5 @@
   </Data>
   <WebUI></WebUI>
   <Banner></Banner>
-  <Icon>https://img0.baidu.com/it/u=3908667157,507472627&fm=253&fmt=auto&app=138&f=PNG?w=256&h=256</Icon>
+  <Icon>https://raw.githubusercontent.com/wyh136/docker-templates/master/images/openvpn.png</Icon>
 </Containers>
