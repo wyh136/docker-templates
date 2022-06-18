@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2022-06-18</Date>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>trojan-go</Name>
+  <Project>https://hub.docker.com/r/teddysun/trojan-go</Project>
+  <Changes>
+  </Changes>
+  <Overview>
+   Trojan-Go Docker Image by Teddysun 
+  </Overview>
+  <Description>
+   Trojan-Go Docker Image by Teddysun 
+  </Description>
+  <Registry>https://hub.docker.com/r/teddysun/trojan-go</Registry>
+  <GitHub></GitHub>
+  <Repository>teddysun/trojan-go</Repository>
+  <Support>https://hub.docker.com/r/teddysun/trojan-go</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/acme.sh</HostDir>
+      <ContainerDir>/acme.sh</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+        <Volume>
+      <HostDir>/mnt/user/appdata/trojan_go</HostDir>
+      <ContainerDir>/etc/trojan-go</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/wyh136/docker-templates/master/images/trojan.jpg</Icon>
+</Containers>
